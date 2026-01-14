@@ -1,0 +1,78 @@
+{
+  "profile": {
+    "name": "Your Name",
+    "email": "your.email@example.com",
+    "skills": [
+      "Python",
+      "JavaScript",
+      "React",
+      "Node.js",
+      "AWS",
+      "Docker",
+      "Kubernetes",
+      "PostgreSQL",
+      "MongoDB",
+      "REST APIs",
+      "Git"
+    ],
+    "experience_years": 3,
+    "preferred_locations": [
+      "Remote",
+      "San Francisco",
+      "New York",
+      "Austin"
+    ],
+    "job_titles": [
+      "Software Engineer",
+      "Full Stack Developer",
+      "Backend Developer",
+      "Python Developer"
+    ],
+    "job_types": [
+      "Full-time",
+      "Contract"
+    ],
+    "salary_expectations": {
+      "min": 80000,
+      "max": 150000,
+      "currency": "USD"
+    },
+    "work_preferences": {
+      "remote_only": false,
+      "willing_to_relocate": true,
+      "visa_sponsorship_required": false
+    }
+  },
+  "preferences": {
+    "company_size": [
+      "Startup",
+      "Mid-size",
+      "Enterprise"
+    ],
+    "industries": [
+      "Technology",
+      "FinTech",
+      "HealthTech",
+      "E-commerce"
+    ],
+    "avoid_keywords": [
+      "unpaid",
+      "commission only",
+      "MLM"
+    ],
+    "required_keywords": [],
+    "nice_to_have": [
+      "equity",
+      "health insurance",
+      "401k",
+      "flexible hours"
+    ]
+  },
+  "settings": {
+    "min_match_score": 60,
+    "max_jobs_to_analyze": 20,
+    "days_back": 1,
+    "send_email_if_no_matches": true
+  }
+}
+

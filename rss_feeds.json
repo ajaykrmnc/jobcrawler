@@ -1,0 +1,42 @@
+{
+  "feeds": [
+    {
+      "name": "Google Alerts - Software Engineer",
+      "url": "https://www.google.com/alerts/feeds/YOUR_USER_ID/YOUR_ALERT_ID",
+      "enabled": true,
+      "priority": 1,
+      "tags": ["software-engineer", "general"],
+      "description": "General software engineering jobs"
+    },
+    {
+      "name": "Google Alerts - Python Developer",
+      "url": "https://www.google.com/alerts/feeds/YOUR_USER_ID/YOUR_ALERT_ID",
+      "enabled": true,
+      "priority": 1,
+      "tags": ["python", "backend"],
+      "description": "Python-specific job postings"
+    },
+    {
+      "name": "Google Alerts - Remote Jobs",
+      "url": "https://www.google.com/alerts/feeds/YOUR_USER_ID/YOUR_ALERT_ID",
+      "enabled": true,
+      "priority": 2,
+      "tags": ["remote", "flexible"],
+      "description": "Remote work opportunities"
+    },
+    {
+      "name": "Indeed RSS Feed",
+      "url": "https://www.indeed.com/rss?q=software+engineer",
+      "enabled": false,
+      "priority": 3,
+      "tags": ["indeed", "aggregator"],
+      "description": "Indeed job board RSS feed (example)"
+    }
+  ],
+  "settings": {
+    "max_feeds_to_process": 10,
+    "respect_priority": true,
+    "skip_disabled": true
+  }
+}
+
