@@ -1,32 +1,40 @@
 {
   "feeds": [
     {
-      "name": "Google Alerts - Software Engineer",
-      "url": "https://www.google.com/alerts/feeds/YOUR_USER_ID/YOUR_ALERT_ID",
+      "name": "Bloomberg Job",
+      "url": "https://www.google.com/alerts/feeds/10770047964909273651/4142877514097775833",
       "enabled": true,
       "priority": 1,
       "tags": ["software-engineer", "general"],
       "description": "General software engineering jobs"
     },
     {
-      "name": "Google Alerts - Python Developer",
-      "url": "https://www.google.com/alerts/feeds/YOUR_USER_ID/YOUR_ALERT_ID",
+      "name": "Confluent Jobs",
+      "url": "https://www.google.com/alerts/feeds/10770047964909273651/7866920456859819182",
       "enabled": true,
       "priority": 1,
       "tags": ["python", "backend"],
       "description": "Python-specific job postings"
     },
     {
-      "name": "Google Alerts - Remote Jobs",
-      "url": "https://www.google.com/alerts/feeds/YOUR_USER_ID/YOUR_ALERT_ID",
+      "name": "Data Dog HQ",
+      "url": "https://www.google.com/alerts/feeds/10770047964909273651/6981467112458347677",
       "enabled": true,
       "priority": 2,
       "tags": ["remote", "flexible"],
       "description": "Remote work opportunities"
     },
     {
-      "name": "Indeed RSS Feed",
-      "url": "https://www.indeed.com/rss?q=software+engineer",
+      "name": "DE Shaw Careers",
+      "url": "https://www.google.com/alerts/feeds/10770047964909273651/12780692149877016788",
+      "enabled": false,
+      "priority": 3,
+      "tags": ["indeed", "aggregator"],
+      "description": "Indeed job board RSS feed (example)"
+    },
+    {
+      "name": "Google Careers",
+      "url": "https://www.google.com/alerts/feeds/10770047964909273651/10783441291848333426",
       "enabled": false,
       "priority": 3,
       "tags": ["indeed", "aggregator"],
@@ -39,4 +47,3 @@
     "skip_disabled": true
   }
 }
-
