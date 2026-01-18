@@ -1,6 +1,7 @@
 # Job Automation System
 
-> **An intelligent job automation system that monitors RSS feeds, analyzes job postings using AI, and sends daily email summaries of suitable positions.**
+> **An intelligent job automation system that monitors RSS feeds, analyzes job postings using AI, and sends 
+> daily email summaries of suitable positions.**
 
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
@@ -62,17 +63,17 @@ USE_JSON_FEEDS=true
 
 ```json
 {
-  "profile": {
-    "skills": ["Python", "JavaScript", "React"],
-    "experience_years": 3,
-    "preferred_locations": ["Remote", "San Francisco"],
-    "job_titles": ["Software Engineer"]
-  },
-  "settings": {
-    "min_match_score": 60,
-    "max_jobs_to_analyze": 20,
-    "days_back": 1
-  }
+"profile": {
+"skills": ["Python", "JavaScript", "React"],
+"experience_years": 3,
+"preferred_locations": ["Remote", "San Francisco"],
+"job_titles": ["Software Engineer"]
+},
+"settings": {
+"min_match_score": 60,
+"max_jobs_to_analyze": 20,
+"days_back": 1
+}
 }
 ```
 
@@ -80,14 +81,14 @@ USE_JSON_FEEDS=true
 
 ```json
 {
-  "feeds": [
-    {
-      "name": "Google Alerts - Software Engineer",
-      "url": "https://www.google.com/alerts/feeds/.../...",
-      "enabled": true,
-      "priority": 1
-    }
-  ]
+"feeds": [
+{
+"name": "Google Alerts - Software Engineer",
+"url": "https://www.google.com/alerts/feeds/.../...",
+"enabled": true,
+"priority": 1
+}
+]
 }
 ```
 
@@ -168,7 +169,8 @@ python3 test_setup.py
 
 ## 📚 Documentation
 
-- **[GUIDE.md](GUIDE.md)** - Complete comprehensive guide (setup, configuration, deployment, examples, API reference)
+- **[GUIDE.md](GUIDE.md)** - Complete comprehensive guide (setup, configuration, deployment, examples, API 
+reference)
 - **[README.md](README.md)** - This quick start guide
 
 ## 🤝 Contributing

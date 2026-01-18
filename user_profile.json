@@ -1,78 +1,161 @@
 {
   "profile": {
-    "name": "Your Name",
-    "email": "your.email@example.com",
+    "name": "Ajay Kumar",
+    "email": "20je0073@am.iitism.ac.in",
     "skills": [
+      "C",
+      "C++",
+      "Golang",
       "Python",
       "JavaScript",
-      "React",
+      "HTML/CSS",
+      "SQL",
+      "React.js",
       "Node.js",
-      "AWS",
-      "Docker",
-      "Kubernetes",
-      "PostgreSQL",
+      "Express.js",
       "MongoDB",
       "REST APIs",
-      "Git"
+      "Git",
+      "GitHub",
+      "Bootstrap",
+      "Google Kubernetes Engine",
+      "Docker",
+      "Machine Learning",
+      "Random Forest",
+      "XGBoost",
+      "RNN",
+      "NLP",
+      "Data Structures & Algorithms"
     ],
-    "experience_years": 3,
+    "experience_years": 1,
     "preferred_locations": [
+      "Pune",
+      "India",
       "Remote",
-      "San Francisco",
-      "New York",
-      "Austin"
+      "Bangalore",
+      "Hyderabad",
+      "Mumbai"
     ],
     "job_titles": [
       "Software Engineer",
       "Full Stack Developer",
       "Backend Developer",
-      "Python Developer"
+      "Software Development Engineer",
+      "SDE",
+      "Machine Learning Engineer",
+      "Data Engineer"
     ],
-    "job_types": [
-      "Full-time",
-      "Contract"
-    ],
+    "job_types": ["Full-time"],
     "salary_expectations": {
-      "min": 80000,
-      "max": 150000,
-      "currency": "USD"
+      "min": 2500000,
+      "max": 5500000,
+      "currency": "INR"
     },
     "work_preferences": {
       "remote_only": false,
       "willing_to_relocate": true,
       "visa_sponsorship_required": false
+    },
+    "education": {
+      "degree": "Integrated M.Tech",
+      "field": "Mathematics & Computing",
+      "institution": "IIT ISM Dhanbad",
+      "graduation_year": 2025,
+      "cgpa": 7.62
+    },
+    "experience": [
+      {
+        "company": "Arista Networks",
+        "role": "Software Engineer",
+        "location": "Pune, India",
+        "type": "Upcoming Full-time",
+        "start_date": "2025"
+      },
+      {
+        "company": "Barclays",
+        "role": "Technology Developer Intern",
+        "location": "Manchester, UK",
+        "type": "Onsite Internship",
+        "start_date": "Jun 2024",
+        "end_date": "Aug 2024",
+        "highlights": [
+          "Automated global technological change management in Data Science division",
+          "Built ML models (Random Forest, RNN, XGBoost) and NLP pipelines",
+          "Achieved >80% model accuracy using limited labeled data"
+        ]
+      },
+      {
+        "company": "Urban Reach Pvt Ltd",
+        "role": "Software Engineer Intern",
+        "location": "Remote",
+        "type": "Remote Internship",
+        "start_date": "May 2022",
+        "end_date": "Jun 2022",
+        "highlights": [
+          "Built responsive full-stack website for agri-tech startup",
+          "Designed frontend & backend, integrated REST APIs using Axios"
+        ]
+      }
+    ],
+    "achievements": [
+      "1st Runner-up at Myntra Codeathon 2023 (among 1000+ IIT/NIT participants)",
+      "Expert on Codeforces (Peak Rating: 1668)",
+      "Rank 463 in Codeforces Round 891 (20K+ participants)",
+      "Rank 1027 in Codeforces Round 876 (25K+ participants)",
+      "Top 1% in JEE Main & Advanced 2020"
+    ],
+    "projects": [
+      {
+        "name": "MyntraVerse",
+        "tech": ["React.js", "Node.js", "MongoDB", "Meshcapade API"],
+        "description": "3D personalized avatars and digital wardrobes with clothing sustainability scoring"
+      },
+      {
+        "name": "HackElite",
+        "tech": ["Full Stack"],
+        "description": "Hackathon project"
+      }
+    ],
+    "certifications": [
+      "Architecting with Google Kubernetes Engine",
+      "Data Structures and Algorithms"
+    ],
+    "social_links": {
+      "linkedin": "https://linkedin.com/in/ajaykumar",
+      "github": "https://github.com/ajaykumar",
+      "codeforces": "https://codeforces.com/profile/hero2xero"
     }
   },
   "preferences": {
-    "company_size": [
-      "Startup",
-      "Mid-size",
-      "Enterprise"
-    ],
+    "company_size": ["Startup", "Mid-size", "Enterprise"],
     "industries": [
       "Technology",
       "FinTech",
-      "HealthTech",
-      "E-commerce"
+      "Networking",
+      "Cloud Computing",
+      "E-commerce",
+      "Data Science",
+      "AgriTech"
     ],
     "avoid_keywords": [
       "unpaid",
       "commission only",
-      "MLM"
+      "MLM",
+      "10+ years experience"
     ],
     "required_keywords": [],
     "nice_to_have": [
-      "equity",
       "health insurance",
-      "401k",
-      "flexible hours"
+      "stock options",
+      "flexible hours",
+      "learning budget",
+      "work from home"
     ]
   },
   "settings": {
-    "min_match_score": 60,
-    "max_jobs_to_analyze": 20,
-    "days_back": 1,
+    "min_match_score": 50,
+    "max_jobs_to_analyze": 25,
+    "days_back": 3,
     "send_email_if_no_matches": true
   }
 }
-

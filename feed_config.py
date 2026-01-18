@@ -5,11 +5,11 @@ Handles loading and managing RSS feed configurations from multiple sources
 
 import json
 import os
-import logging
 from typing import List, Dict, Optional
 from dataclasses import dataclass, field
+from logger import get_logger
 
-logger = logging.getLogger(__name__)
+logger = get_logger(__name__)
 
 
 @dataclass

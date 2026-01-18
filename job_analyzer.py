@@ -4,12 +4,11 @@ Uses Gemini API to analyze job postings and determine suitability
 """
 
 import google.generativeai as genai
-import logging
 from typing import Dict, List, Optional
 import os
+from logger import get_logger
 
-logging.basicConfig(level=logging.INFO)
-logger = logging.getLogger(__name__)
+logger = get_logger(__name__)
 
 
 class JobAnalyzer:

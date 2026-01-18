@@ -6,24 +6,15 @@ Orchestrates RSS parsing, content extraction, job analysis, and email notificati
 import os
 import sys
 from dotenv import load_dotenv
-import logging
 from rss_parser import RSSParser
 from content_extractor import ContentExtractor
 from job_analyzer import JobAnalyzer
 from email_sender import EmailSender
 from feed_config import FeedConfigManager
 from user_config import UserConfigManager
+from logger import get_logger, log_section, log_separator
 
-# Configure logging
-logging.basicConfig(
-    level=logging.INFO,
-    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
-    handlers=[
-        logging.FileHandler('job_automation.log'),
-        logging.StreamHandler(sys.stdout)
-    ]
-)
-logger = logging.getLogger(__name__)
+logger = get_logger(__name__)
 
 
 def load_config():

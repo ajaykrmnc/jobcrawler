@@ -5,12 +5,11 @@ Uses readability-lxml to extract clean content from job posting pages
 
 import requests
 from readability import Document
-import logging
 from typing import Optional
 from bs4 import BeautifulSoup
+from logger import get_logger
 
-logging.basicConfig(level=logging.INFO)
-logger = logging.getLogger(__name__)
+logger = get_logger(__name__)
 
 
 class ContentExtractor:
